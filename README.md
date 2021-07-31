@@ -14,13 +14,13 @@ Website: www.watermon.org
 ### Contaminant Detection
 Biological and Chemical contaminants are the main causes of unclean sanitation of water and we at watermon have developed an automated method for detection of the contaminants and develop reports of any water sample based on type, quantity and rate of spread of contaminant present in the body of water.
 
-## Device design:  
+#### Device design:  
 * Built with easily available low cost components.
 * Create enclosure for colour sensor to minimise environmental factors.
 * Work without internet to provide results locally and store data for future upload to cloud.
 * Interface to enable results monitoring, calibration for each test.
 
-## Device Features:
+#### Device Features:
 * Microcontroller
 * Colour Sensor to detect colour change in the ampoule.
 * Heating pad to maintain temperature.
