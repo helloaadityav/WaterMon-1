@@ -7,3 +7,6 @@ Solution components:
 
 Wiki: 
 https://github.com/watermonorg/WaterMon/wiki/Leak-detection
+
+Ref: 
+https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/
