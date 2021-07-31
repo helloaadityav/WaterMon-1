@@ -19,3 +19,6 @@ components to function with the readily available manual Water Testing Kits. The
 device is connected to the cloud for reports and data correlation.
 • ML-based Analytical method: To estimate drinking-water quality, co-relate data from
 different sources to generate insights for actions. 
+
+
+https://github.com/watermonorg/WaterMon/wiki/Contaminant-Detection
