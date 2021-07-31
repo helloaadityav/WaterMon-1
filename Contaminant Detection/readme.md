@@ -4,7 +4,7 @@ are available at an economical price. The results from these kits are inferred b
 indicators such as colour change over long periods [24-48 hours]. The results vary based on
 environmental factors such as temperature.
 
-Portable Water Test Kits although functional, economical are cumbersome to use. Also there is
+Portable Water Test Kits although functional and economical are cumbersome to use. Also there is
 no standard co-relation of the data from various tests to generate actionable insights. E.g.
 Water Quality tests for a specific region.
 
