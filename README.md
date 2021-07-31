@@ -10,3 +10,6 @@ The method is designed to be crowd-sourced and handled by a local communities to
 We encourage all to build on these solutions, contribute to creating innovative solutions.
 
 Website: www.watermon.org
+## Our Projects
+### Contaminant Detection
+biological and chemical contaminants are the main causes of unclean sanitation of water and we at watermon have developed an automated method for detection of the contaminants and develop reports of any water sample based on type, quantity and rate of spread of contaminant present in the body of water.
