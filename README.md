@@ -43,3 +43,4 @@ The intent of this project is to demonstrate a non-invasive water flow detection
 * ML pipeline trains on the IMU sensor readings during the flow and in no flow scenario and generates the coefficients required to classify the flow, no flow scenario
 * Node-RED Dashboard uses these coefficients to classify the flow status based on real-time sensor data.
 
+For more info visit : https://github.com/watermonorg/WaterMon/wiki/Leak-detection
