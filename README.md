@@ -28,3 +28,17 @@ Biological and Chemical contaminants are the main causes of unclean sanitation o
 * UI to configure, calibrate
 
 For more info visit: https://github.com/watermonorg/WaterMon/wiki/Contaminant-Detection
+
+### Leak Detection
+
+Water flow detection is key for inferring leakage and preventing wastage.
+Challenges Invasive flow meters although effective require plumbing and maintenance. Flow meters typically have moving spindles which take wear & tear over period. They can accumulate salts and result in calibration drifts.
+
+The intent of this project is to demonstrate a non-invasive water flow detection solution capturing the variations in the vibrations on the pipe during the flow. The first objective is to detect presence of water flow and match it with rules to infer leaks based on the expected duration of water flow.
+
+#### Solution Overview:
+
+ESP-32 microcontroller with 6-Axis IMU mounted on the Water pipe captures the sensor readings and uploads it to MQTT broker hosted in IBM Cloud
+ML pipeline trains on the IMU sensor readings during the flow and in no flow scenario and generates the coefficients required to classify the flow, no flow scenario
+Node-RED Dashboard uses these coefficients to classify the flow status based on real-time sensor data.
+
