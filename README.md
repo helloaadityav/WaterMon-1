@@ -38,7 +38,7 @@ The intent of this project is to demonstrate a non-invasive water flow detection
 
 #### Solution Overview:
 
-ESP-32 microcontroller with 6-Axis IMU mounted on the Water pipe captures the sensor readings and uploads it to MQTT broker hosted in IBM Cloud
-ML pipeline trains on the IMU sensor readings during the flow and in no flow scenario and generates the coefficients required to classify the flow, no flow scenario
-Node-RED Dashboard uses these coefficients to classify the flow status based on real-time sensor data.
+* ESP-32 microcontroller with 6-Axis IMU mounted on the Water pipe captures the sensor readings and uploads it to MQTT broker hosted in IBM Cloud
+* ML pipeline trains on the IMU sensor readings during the flow and in no flow scenario and generates the coefficients required to classify the flow, no flow scenario
+* Node-RED Dashboard uses these coefficients to classify the flow status based on real-time sensor data.
 
