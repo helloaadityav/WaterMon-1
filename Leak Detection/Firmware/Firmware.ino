@@ -1,5 +1,4 @@
 /*
-
 Copyright (c) 2021 WaterMon.
 This software is released under the MIT License.
 https://opensource.org/licenses/MIT
@@ -34,9 +33,7 @@ char IbmClientId[] = "d:35d42q:android:phone"; // "d:" ORG ":" DEVICE_TYPE ":" D
 #define DEVICE_TYPE "esp32"
 #define DEVICE_ID "m5stick"
 #define TOKEN "&1njz0L_7K+@MqOKOE"
-
 // <------- CHANGE PARAMETERS ABOVE THIS LINE ------------>
-
 char Ibmserver[] = ORG ".messaging.internetofthings.ibmcloud.com";
 char pubTopic[] = "iot-2/evt/status/fmt/json";
 char subTopic[] = "iot-2/cmd/test/fmt/String";
@@ -523,11 +520,11 @@ void loop() {
               payload += ",\"LinearAccelerationX@StarterSensorZ\":";
               payload += gyroZ;*/
               payload += "}}";
-   
-              
+
+
  Serial.print("Sending payload: ");
  Serial.println(payload);
- 
+
 
  mqttPublish((char*) payload.c_str());  
  delay(100);
